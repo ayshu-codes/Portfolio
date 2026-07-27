@@ -549,15 +549,12 @@ display:none;
 .home{
 
     min-height:100vh;
-
     display:flex;
-
     align-items:center;
-
     position:relative;
-
     overflow:hidden;
     margin-top: 1px;
+    margin-bottom: 2px;
 }
 
 .home-container{
@@ -579,7 +576,7 @@ display:none;
 
     font-weight:700;
 
-    margin-bottom:20px;
+    margin-bottom:5px;
 }
 
 .home-title{
@@ -699,8 +696,10 @@ display:none;
     border-radius:50%;
 
     padding:15px;
+
     margin-top: 5px;
-    margin-bottom: 150px;
+
+    margin-bottom: 50px;
 
     background:linear-gradient(
     135deg,
@@ -992,7 +991,7 @@ margin-bottom:8px;
 ==============================*/
 
 .journey{
-    padding-top:10px;
+    padding-top:5px;
 }
 
 .timeline{
@@ -1125,7 +1124,7 @@ position:relative;
 
 height:750px;
 
-margin-top:50px;
+margin-top:5px;
 
 }
 
@@ -1500,32 +1499,6 @@ transition:.6s;
 .project-image:hover img{
 
 transform:scale(1.08);
-
-}
-
-.project-image::after{
-
-content:"View Project →";
-
-position:absolute;
-
-inset:0;
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-background:rgba(229,9,20,.82);
-
-font-size:1.5rem;
-
-font-weight:bold;
-
-opacity:0;
-
-transition:.4s;
 
 }
 
