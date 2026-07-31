@@ -649,9 +649,7 @@ display:none;
 
     letter-spacing:2px;
 }
-.home-title{
-    font-size:clamp(2.8rem, 10vw, 7rem);
-}
+
 .home-title span{
 
     color:var(--red);
@@ -2997,6 +2995,73 @@ opacity:0;
 
     .learning-grid{
         grid-template-columns:1fr;
+    }
+
+}
+@media screen and (max-width:768px){
+
+    .home-title{
+        font-size:3.2rem !important;
+        line-height:1.1;
+        word-break:break-word;
+    }
+
+}
+/*==============================
+HOME MOBILE
+==============================*/
+
+@media screen and (max-width:768px){
+
+    .home-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:30px;
+    }
+
+    .home-content{
+        order:1;
+    }
+
+    .home-image{
+        order:2;
+        margin:0;
+        display:flex;
+        justify-content:center;
+    }
+
+    .image-circle{
+        width:250px;
+        height:250px;
+        margin:0 auto;
+    }
+
+    .home-buttons{
+        flex-direction:column;
+        width:100%;
+        gap:15px;
+    }
+
+    .btn,
+    .outline-btn{
+        width:100%;
+        max-width:260px;
+        margin:0 auto;
+    }
+
+    .home-social{
+        justify-content:center;
+    }
+
+    .home-title{
+        font-size:3rem !important;
+        line-height:1.1;
+    }
+
+    .typing-text{
+        font-size:1.3rem;
     }
 
 }
