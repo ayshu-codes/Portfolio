@@ -2084,9 +2084,27 @@ color:var(--text);
 }
 
 /*==============================
-TOOLBOX
+STATS MOBILE
 ==============================*/
 
+@media screen and (max-width:768px){
+
+    .stats-grid{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .stat-card{
+        width:100%;
+        padding:30px 20px;
+    }
+
+    .stat-card h2{
+        font-size:3rem;
+    }
+
+}
 /*==============================
 TOOLBOX
 ==============================*/
