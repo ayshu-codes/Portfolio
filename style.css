@@ -771,6 +771,18 @@ display:none;
         width:260px;
         height:260px;
     }
+    @media (max-width:768px){
+
+.home-image{
+    position: static !important;
+    transform: none !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    margin: 20px auto 0 !important;
+}
+
+}
 
 }
 
@@ -3007,61 +3019,62 @@ opacity:0;
     }
 
 }
-/* ================= MOBILE HOME LAYOUT ================= */
 
-@media (max-width: 768px) {
+/*==============================
+HOME MOBILE
+==============================*/
 
-  .home-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "content"
-      "image";
-    justify-items: center;
-    text-align: center;
-    gap: 2rem;
-  }
+@media screen and (max-width:768px){
 
-  .home-content{
-    grid-area: content;
-    order: 1;
-    width: 100%;
-  }
+    .home-container{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        gap:30px;
+    }
 
-  .home-image{
-    grid-area: image;
-    order: 2;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 20px;
-  }
+    .home-content{
+        order:1;
+    }
 
-  .image-circle{
-    margin: 0 auto;
-  }
+    .home-image{
+        order:2;
+        margin:0;
+        display:flex;
+        justify-content:center;
+    }
 
-  .home-title{
-    font-size: 58px !important;
-    line-height: 1.05;
-  }
+    .image-circle{
+        width:250px;
+        height:250px;
+        margin:0 auto;
+    }
 
-  .typing-text{
-    font-size: 26px !important;
-  }
+    .home-buttons{
+        flex-direction:column;
+        width:100%;
+        gap:15px;
+    }
 
-  .home-description{
-    max-width: 100%;
-    padding: 0 20px;
-  }
+    .btn,
+    .outline-btn{
+        width:100%;
+        max-width:260px;
+        margin:0 auto;
+    }
 
-  .home-buttons{
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+    .home-social{
+        justify-content:center;
+    }
 
-  .home-social{
-    justify-content: center;
-  }
+    .home-title{
+        font-size:3rem !important;
+        line-height:1.1;
+    }
+
+    .typing-text{
+        font-size:1.3rem;
+    }
 
 }
