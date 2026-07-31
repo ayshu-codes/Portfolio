@@ -649,7 +649,9 @@ display:none;
 
     letter-spacing:2px;
 }
-
+.home-title{
+    font-size:clamp(2.8rem, 10vw, 7rem);
+}
 .home-title span{
 
     color:var(--red);
