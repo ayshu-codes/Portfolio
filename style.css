@@ -2861,67 +2861,6 @@ opacity:0;
 
 }
 
-@media screen and (max-width:768px){
-
-    .home-container{
-        grid-template-columns:1fr;
-        gap:35px;
-        text-align:center;
-    }
-
-    .home-title{
-        font-size:3.5rem;
-    }
-
-    .home-description{
-        max-width:100%;
-        margin:0 auto 30px;
-    }
-
-    .home-buttons{
-        flex-direction:column;
-        align-items:center;
-    }
-
-    .btn,
-    .outline-btn{
-        width:220px;
-    }
-
-    .home-image{
-        margin:0;
-    }
-
-    .image-circle{
-        width:260px;
-        height:260px;
-        margin:20px auto;
-    }
-
-    .about-container{
-        grid-template-columns:1fr;
-        gap:40px;
-    }
-
-    .about-cards{
-        grid-template-columns:1fr;
-    }
-
-    .learning-grid{
-        grid-template-columns:1fr;
-    }
-
-}
-@media screen and (max-width:768px){
-
-    .home-title{
-        font-size:3.2rem !important;
-        line-height:1.1;
-        word-break:break-word;
-    }
-
-}
-
 /*==================================
         HOME MOBILE
 ==================================*/
