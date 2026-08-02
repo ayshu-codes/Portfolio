@@ -2234,48 +2234,31 @@ color:var(--text);
 line-height:1.8;
 
 }
-.learning-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
+
+/* Desktop */
+.learning-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 70px;
 }
 
-.learning-card {
-  width: 100%;
-  min-height: 320px;
-  padding: 20px;
-  border-radius: 20px;
-  box-sizing: border-box;
+/* Tablet */
+@media screen and (max-width: 992px) {
+    .learning-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-.learning-card h3 {
-  font-size: 1.5rem;
-  word-wrap: break-word;
-}
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .learning-grid {
+        grid-template-columns: 1fr !important;
+    }
 
-.learning-card p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-@media (max-width: 768px) {
-  .learning-container {
-    grid-template-columns: 1fr;
-    padding: 15px;
-  }
-
-  .learning-card {
-    min-height: auto;
-    padding: 18px;
-  }
-
-  .learning-card h3 {
-    font-size: 1.3rem;
-  }
-
-  .learning-card p {
-    font-size: 0.95rem;
-  }
+    .learning-card {
+        width: 100%;
+    }
 }
 
 /*==============================
