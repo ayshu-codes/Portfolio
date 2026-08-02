@@ -2076,9 +2076,6 @@ TOOLBOX
     }
 
 }
-/*==============================
-LEARNING
-==============================*/
 
 /*==============================
 LEARNING
@@ -2237,7 +2234,49 @@ color:var(--text);
 line-height:1.8;
 
 }
+.learning-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
 
+.learning-card {
+  width: 100%;
+  min-height: 320px;
+  padding: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.learning-card h3 {
+  font-size: 1.5rem;
+  word-wrap: break-word;
+}
+
+.learning-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .learning-container {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .learning-card {
+    min-height: auto;
+    padding: 18px;
+  }
+
+  .learning-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .learning-card p {
+    font-size: 0.95rem;
+  }
+}
 
 /*==============================
 CONTACT
