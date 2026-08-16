@@ -232,10 +232,10 @@ image.style.transform="rotateX(0) rotateY(0)";
 });
 
 const words = [
-    "Frontend Developer",
     "Full Stack Developer",
     "Software Developer",
     "React Developer",
+    "Frontend Developer",
     "Java Developer"
 ];
 
