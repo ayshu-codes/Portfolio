@@ -2266,7 +2266,6 @@ line-height:1.8;
 }
 
 .learning-card:hover .learning-icon {
-    color: #ff3333;
     transform: translateY(-3px);
 }
 
