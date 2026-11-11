@@ -1921,6 +1921,46 @@ opacity:1;
 STATS
 ==============================*/
 
+.stat-card {
+    text-align: center;
+    padding: 25px 15px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 50, 50, 0.15);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    border-color: #ff3333;
+    box-shadow: 0 8px 25px rgba(255, 0, 0, 0.15);
+}
+
+.stat-icon {
+    font-size: 28px;
+    color: #ff3333;
+    margin-bottom: 12px;
+    display: inline-block;
+    filter: drop-shadow(0 0 8px rgba(255, 40, 40, 0.4));
+    transition: 0.3s ease;
+}
+
+.stat-card:hover .stat-icon {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 12px rgba(255, 40, 40, 0.7));
+}
+
+.stat-card h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin: 8px 0;
+}
+
+.stat-card p {
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
 .stats{
 
 padding-top: 1px;
@@ -2215,6 +2255,26 @@ color:var(--text);
 
 line-height:1.8;
 
+}
+
+.learning-icon {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 18px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.learning-card:hover .learning-icon {
+    color: #ff3333;
+    transform: translateY(-3px);
+}
+
+.learning-icon {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    display: inline-block;
 }
 
 /* Desktop */
