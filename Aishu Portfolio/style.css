@@ -2266,7 +2266,7 @@ line-height:1.8;
 }
 
 .learning-card:hover .learning-icon {
-    transform: translateY(-3px);
+    transform: translateY(-1px);
 }
 
 .learning-icon {
